@@ -117,7 +117,7 @@ See the dbus description for more information about D-BUS in general.
 ##########
 
 %prep
-%setup -n %name-%tde_version%{?preversion:~%preversion}
+%setup -n %name
 
 %build
 unset QTDIR QTINC QTLIB
