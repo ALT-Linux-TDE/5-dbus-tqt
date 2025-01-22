@@ -41,7 +41,7 @@ License: GPL-2.0+
 #Vendor:		Trinity Project
 #Packager:	Francois Andriot <francois.andriot@free.fr>
 
-Source0:	%{name}-%{tde_version}%{?preversion:~%{preversion}}.tar.gz
+Source0:	%{name}.tar.gz
 
 # BuildRequires:	libtqt4-devel >= %tde_epoch:4.2.0
 
