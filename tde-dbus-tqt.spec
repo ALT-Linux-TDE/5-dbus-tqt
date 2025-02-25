@@ -1,5 +1,5 @@
 # BEGIN SourceDeps(oneline):
-BuildRequires: cmake gcc-c++ libdbus-devel libtqt4-devel perl(DB_File.pm) perl(Fcntl.pm) perl(Shell.pm)
+BuildRequires: cmake gcc-c++ libdbus-devel libtqt4-devel perl(DB_File.pm) perl(Fcntl.pm) perl(Shell.pm) pkgconfig libdbus-1-tqt-devel
 # END SourceDeps(oneline)
 BuildRequires(pre):	rpm-macros-suse-compat
 BuildRequires(pre):	rpm-macros-cmake
@@ -50,7 +50,7 @@ Source0:	tde-dbus-tqt.tar.gz
 # BuildRequires:	pkgconfig
 
 # DBUS support
-# BuildRequires:	dbus-1-devel
+#BuildRequires:	libdbus-1-tqt-devel
 
 %description
 D-BUS is a message bus, used for sending messages between applications.
